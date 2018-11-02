@@ -15,7 +15,7 @@
         <property name="testOnReturn" value="${redis.testOnReturn}"/>
     </bean>
 
-    <bean id="jedisPoolClient" class="com.laika.demoservice.client.JedisPoolClient"
+    <bean id="jedisPoolClient" class="com.miles.demoservice.client.JedisPoolClient"
       destroy-method="destroy">
         <property name="host" value="${redis.host}"/>
         <property name="password" value="${redis.password}"/>
@@ -35,7 +35,7 @@
     <!--</bean>-->
 
     <!-- zookeeper -->
-    <!--<bean id="zkConnector" class="com.laika.demoservice.client.ZooKeeperConnector"-->
+    <!--<bean id="zkConnector" claZooKeeperConnectorctor"-->
           <!--init-method="connect" lazy-init="false">-->
         <!--<property name="hosts" value="192.168.12.86:2181"/>-->
     <!--</bean>-->

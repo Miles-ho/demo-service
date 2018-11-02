@@ -2,11 +2,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.laika.demoService</groupId>
-    <artifactId>guess-demoService</artifactId>
+    <groupId>com.miles.demoService</groupId>
+    <artifactId>demo-service</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>guess-demoService</name>
+    <name>demo-service</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -191,91 +191,7 @@
             <artifactId>gson</artifactId>
             <version>2.8.0</version>
         </dependency>
-
-        <!-- apollo-client -->
-        <dependency>
-            <groupId>com.ctrip.framework.apollo</groupId>
-            <artifactId>apollo-client</artifactId>
-            <version>${apollo-client.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ctrip.framework.apollo</groupId>
-            <artifactId>apollo-core</artifactId>
-            <version>${apollo-client.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ctrip.framework.apollo</groupId>
-            <artifactId>apollo-buildtools</artifactId>
-            <version>${apollo-client.version}</version>
-        </dependency>
-
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>maven-third</id>
-            <url>http://120.79.64.173:8082/repository/maven-third/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://120.79.64.173:8082/repository/maven-releases/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>maven-snapshots</id>
-            <url>http://120.79.64.173:8082/repository/maven-snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>maven-third</id>
-            <url>http://120.79.64.173:8082/repository/maven-public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>maven-releases</id>
-            <url>http://120.79.64.173:8082/repository/maven-public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>maven-snapshots</id>
-            <url>http://120.79.64.173:8082/repository/maven-public/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
-
 
     <build>
         <plugins>

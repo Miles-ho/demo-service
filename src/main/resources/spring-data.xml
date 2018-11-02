@@ -62,7 +62,7 @@
   <!-- 启用事务 -->
   <aop:config>
     <aop:pointcut id="interceptorPointCuts"
-      expression="(execution(* com.laika.demoservice.service.*.*(..)))"/>
+      expression="(execution(* com.miles.demoservice.service.*.*(..)))"/>
     <aop:advisor advice-ref="txAdvice" pointcut-ref="interceptorPointCuts"/>
   </aop:config>
   <aop:aspectj-autoproxy></aop:aspectj-autoproxy>

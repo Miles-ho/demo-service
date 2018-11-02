@@ -1,6 +1,6 @@
 import com.google.common.base.CaseFormat;
 
-import com.laika.demoservice.utils.StringUtil;
+import com.miles.demoservice.utils.StringUtil;
 
 import freemarker.template.TemplateExceptionHandler;
 
@@ -29,13 +29,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.laika.demoservice.core.ProjectConstant.BASE_PACKAGE;
-import static com.laika.demoservice.core.ProjectConstant.CONTROLLER_PACKAGE;
-import static com.laika.demoservice.core.ProjectConstant.MAPPER_INTERFACE_REFERENCE;
-import static com.laika.demoservice.core.ProjectConstant.MAPPER_PACKAGE;
-import static com.laika.demoservice.core.ProjectConstant.MODEL_PACKAGE;
-import static com.laika.demoservice.core.ProjectConstant.SERVICE_IMPL_PACKAGE;
-import static com.laika.demoservice.core.ProjectConstant.SERVICE_PACKAGE;
+import static com.miles.demoservice.core.ProjectConstant.BASE_PACKAGE;
+import static com.miles.demoservice.core.ProjectConstant.CONTROLLER_PACKAGE;
+import static com.miles.demoservice.core.ProjectConstant.MAPPER_INTERFACE_REFERENCE;
+import static com.miles.demoservice.core.ProjectConstant.MAPPER_PACKAGE;
+import static com.miles.demoservice.core.ProjectConstant.MODEL_PACKAGE;
+import static com.miles.demoservice.core.ProjectConstant.SERVICE_IMPL_PACKAGE;
+import static com.miles.demoservice.core.ProjectConstant.SERVICE_PACKAGE;
 
 /**
  * 代码生成器，根据数据表名称生成对应的Model、Mapper、Service、Controller简化开发。
