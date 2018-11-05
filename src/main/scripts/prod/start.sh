@@ -7,7 +7,7 @@ CONFIG_DIR=$PROJECT_DIR/config
 LIB_DIR=$PROJECT_DIR/lib
 LIB_JARS=`ls $LIB_DIR | grep .jar | awk '{print "'$LIB_DIR'/"$0}' | tr "\n" ":"`
 mkdir -p /logs/$SERVICE_NAME/
-MAIN_CLASS="com.miles.userservice.Application"
+MAIN_CLASS="com.miles.demoservice.Application"
 
 # 设置classpath
 nohup java -classpath $CONFIG_DIR:$LIB_JARS $MAIN_CLASS | tee -a /data/app/build/$SERVICE_NAME/std_out.log
