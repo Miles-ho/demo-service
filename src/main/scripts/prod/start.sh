@@ -10,4 +10,4 @@ mkdir -p /logs/$SERVICE_NAME/
 MAIN_CLASS="com.miles.demoservice.Application"
 
 # 设置classpath
-nohup java -classpath $CONFIG_DIR:$LIB_JARS $MAIN_CLASS | tee -a /data/app/build/$SERVICE_NAME/std_out.log
+nohup java -classpath $CONFIG_DIR:$LIB_JARS $MAIN_CLASS | tee -a /data/app/build/$SERVICE_NAME/std_out.log 2>&1 &
