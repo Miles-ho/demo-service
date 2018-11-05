@@ -11,4 +11,4 @@ MAIN_CLASS="com.miles.demoservice.Application"
 JAVE_HOME=/usr/local/java
 
 # 设置classpath
-nohup ${JAVE_HOME}/jre/bin/java -classpath $CONFIG_DIR:$LIB_JARS $MAIN_CLASS | tee -a /data/app/build/$SERVICE_NAME/std_out.log 2>&1 &
+nohup $JAVE_HOME/jre/bin/java -classpath $CONFIG_DIR:$LIB_JARS $MAIN_CLASS | tee -a /data/app/build/$SERVICE_NAME/std_out.log 2>&1 &
