@@ -19,26 +19,12 @@
 			<directory>src/main/scripts</directory>
 			<outputDirectory></outputDirectory>
 			<includes>
-				<include>*.txt</include>
-			</includes>
-		</fileSet>
-		<fileSet>
-			<directory>src/main/scripts/pre</directory>
-			<outputDirectory>pre</outputDirectory>
-			<includes>
 				<include>*.sh</include>
 			</includes>
 		</fileSet>
 		<fileSet>
 			<directory>src/main/scripts/dev</directory>
 			<outputDirectory>dev</outputDirectory>
-			<includes>
-				<include>*.sh</include>
-			</includes>
-		</fileSet>
-		<fileSet>
-			<directory>src/main/scripts/test</directory>
-			<outputDirectory>test</outputDirectory>
 			<includes>
 				<include>*.sh</include>
 			</includes>

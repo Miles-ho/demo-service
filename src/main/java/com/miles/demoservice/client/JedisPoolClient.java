@@ -25,6 +25,7 @@ public class JedisPoolClient {
      */
     @PostConstruct
     public void init() {
+
         log.info("host={},port={}",host,port);
         jedisPool = new JedisPool(jedisPoolConfig, host, port, timeOut, password);
     }
